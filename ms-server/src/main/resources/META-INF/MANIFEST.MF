@@ -1,0 +1,76 @@
+Manifest-Version: 1.0
+Class-Path: mybatis-spring-boot-starter-2.1.0.jar spring-boot-starter-
+ jdbc-2.0.1.RELEASE.jar spring-aop-5.0.5.RELEASE.jar mybatis-spring-bo
+ ot-autoconfigure-2.1.0.jar tomcat-embed-el-8.5.28.jar reactive-stream
+ s-1.0.2.jar jackson-databind-2.9.5.jar bcpkix-jdk15on-1.56.jar jackso
+ n-datatype-jsr310-2.9.5.jar spring-cloud-commons-2.0.1.RELEASE.jar sp
+ ring-boot-admin-server-cloud-2.1.5.jar jackson-module-parameter-names
+ -2.9.5.jar archaius-core-0.7.6.jar springfox-spi-2.7.0.jar tomcat-emb
+ ed-core-8.5.28.jar netty-common-4.1.23.Final.jar json-simple-1.1.1.ja
+ r feign-httpclient-8.18.0.jar spring-cloud-netflix-ribbon-2.0.1.RELEA
+ SE.jar spring-boot-actuator-2.0.1.RELEASE.jar spring-boot-starter-web
+ flux-2.0.1.RELEASE.jar mysql-connector-java-8.0.16.jar guava-24.0-jre
+ .jar spring-jcl-5.0.5.RELEASE.jar logback-core-1.2.3.jar spring-boot-
+ configuration-processor-2.0.1.RELEASE.jar spring-cloud-starter-2.0.1.
+ RELEASE.jar commons-codec-1.10.jar spring-boot-devtools-2.0.1.RELEASE
+ .jar spring-cloud-context-2.0.1.RELEASE.jar netty-transport-4.1.23.Fi
+ nal.jar thymeleaf-extras-java8time-3.0.1.RELEASE.jar batik-util-1.6.j
+ ar spring-boot-starter-thymeleaf-2.0.1.RELEASE.jar feign-jackson-8.18
+ .0.jar jackson-core-2.10.0.jar feign-java8-9.5.1.jar springfox-swagge
+ r-common-2.7.0.jar aspectjweaver-1.8.13.jar icepdf-viewer-6.2.2.jar j
+ ackson-annotations-2.9.0.jar spring-tx-5.0.5.RELEASE.jar spring-secur
+ ity-rsa-1.0.5.RELEASE.jar swagger-annotations-1.5.13.jar bcprov-ext-j
+ dk15on-1.54.jar feign-hystrix-9.5.1.jar spring-boot-starter-reactor-n
+ etty-2.0.1.RELEASE.jar commons-lang-2.6.jar netty-transport-native-un
+ ix-common-4.1.23.Final.jar unbescape-1.1.5.RELEASE.jar byte-buddy-1.7
+ .11.jar attoparser-2.0.4.RELEASE.jar spring-plugin-core-1.2.0.RELEASE
+ .jar commons-net-3.6.jar hystrix-core-1.5.12.jar levigo-jbig2-imageio
+ -2.0.jar lombok-1.16.16.jar nio-multipart-parser-1.1.0.jar spring-boo
+ t-admin-server-ui-2.1.5.jar j2objc-annotations-1.1.jar spring-boot-st
+ arter-2.0.1.RELEASE.jar reactor-core-3.1.6.RELEASE.jar spring-boot-2.
+ 0.1.RELEASE.jar druid-spring-boot-starter-1.1.10.jar thymeleaf-3.0.9.
+ RELEASE.jar spring-expression-5.0.5.RELEASE.jar mybatis-3.5.2.jar spr
+ ing-boot-admin-starter-server-2.1.5.jar feign-slf4j-9.5.1.jar swagger
+ -models-1.5.13.jar spring-boot-autoconfigure-2.0.1.RELEASE.jar jboss-
+ logging-3.3.2.Final.jar spring-web-5.0.5.RELEASE.jar opentest4j-1.2.0
+ .jar jai_core-1.1.3.jar spring-boot-actuator-autoconfigure-2.0.1.RELE
+ ASE.jar spring-cloud-openfeign-core-2.0.1.RELEASE.jar feign-jaxb-10.2
+ .3.jar thymeleaf-spring5-3.0.9.RELEASE.jar spring-boot-admin-starter-
+ client-2.1.5.jar spring-security-jwt-1.0.9.RELEASE.jar springfox-swag
+ ger2-2.7.0.jar netty-transport-native-epoll-4.1.23.Final.jar feign-co
+ re-9.5.1.jar spring-boot-starter-tomcat-2.0.1.RELEASE.jar validation-
+ api-2.0.1.Final.jar commons-configuration-1.8.jar checker-compat-qual
+ -2.0.0.jar LatencyUtils-2.0.3.jar netty-codec-socks-4.1.23.Final.jar 
+ animal-sniffer-annotation-1.0.jar spring-context-5.0.5.RELEASE.jar er
+ ror_prone_annotations-2.1.3.jar HikariCP-2.7.8.jar apiguardian-api-1.
+ 1.0.jar spring-boot-starter-aop-2.0.1.RELEASE.jar micrometer-core-1.0
+ .3.jar netty-buffer-4.1.23.Final.jar spring-boot-admin-client-2.1.5.j
+ ar javassist-3.21.0-GA.jar spring-webmvc-5.0.5.RELEASE.jar netty-code
+ c-http-4.1.23.Final.jar jjwt-0.9.1.jar reactor-netty-0.7.6.RELEASE.ja
+ r tomcat-embed-websocket-8.5.28.jar hibernate-validator-6.0.9.Final.j
+ ar batik-svg-dom-1.6.jar rxjava-1.3.8.jar spring-boot-starter-json-2.
+ 0.1.RELEASE.jar mybatis-spring-2.0.2.jar spring-plugin-metadata-1.2.0
+ .RELEASE.jar logback-classic-1.2.3.jar classmate-1.3.4.jar spring-boo
+ t-admin-server-2.1.5.jar batik-dom-1.6.jar netty-resolver-4.1.23.Fina
+ l.jar netty-handler-proxy-4.1.23.Final.jar jul-to-slf4j-1.7.25.jar fe
+ ign-core-8.18.0.jar httpclient-4.5.5.jar spring-security-crypto-5.0.4
+ .RELEASE.jar mapstruct-1.1.0.Final.jar protobuf-java-3.6.1.jar spring
+ -boot-starter-logging-2.0.1.RELEASE.jar snakeyaml-1.19.jar reflection
+ s-0.9.11.jar commons-lang3-3.9.jar spring-boot-starter-actuator-2.0.1
+ .RELEASE.jar spring-jdbc-5.0.5.RELEASE.jar druid-1.1.12.jar spring-cl
+ oud-starter-feign-1.4.4.RELEASE.jar netty-codec-4.1.23.Final.jar slf4
+ j-api-1.7.25.jar spring-cloud-starter-openfeign-2.0.1.RELEASE.jar jav
+ a-jwt-3.8.2.jar bcprov-jdk15on-1.54.jar springfox-schema-2.7.0.jar lo
+ g4j-api-2.10.0.jar jackson-datatype-jdk8-2.9.5.jar animal-sniffer-ann
+ otations-1.14.jar spring-beans-5.0.5.RELEASE.jar HdrHistogram-2.1.9.j
+ ar nio-stream-storage-1.1.3.jar javax.annotation-api-1.3.2.jar spring
+ -core-5.0.5.RELEASE.jar netty-handler-4.1.23.Final.jar jolokia-core-1
+ .5.0.jar spring-cloud-netflix-archaius-2.0.1.RELEASE.jar springfox-co
+ re-2.7.0.jar batik-svggen-1.6.jar junit-jupiter-api-5.6.0-M1.jar http
+ core-4.4.9.jar icepdf-core-6.1.3.jar spring-boot-starter-web-2.0.1.RE
+ LEASE.jar springfox-swagger-ui-2.7.0.jar log4j-to-slf4j-2.10.0.jar sp
+ ringfox-spring-web-2.7.0.jar batik-xml-1.6.jar junit-platform-commons
+ -1.6.0-M1.jar batik-awt-util-1.6.jar jsr305-1.3.9.jar spring-webflux-
+ 5.0.5.RELEASE.jar reactor-extra-3.1.6.RELEASE.jar
+Main-Class: cn.cloudbed.mylibrary.MylibraryApplication
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-framework-common/ms-framework-common.iml" filepath="$PROJECT_DIR$/ms-framework-common/ms-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-framework-model/ms-framework-model.iml" filepath="$PROJECT_DIR$/ms-framework-model/ms-framework-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-framework-parent/ms-framework-parent.iml" filepath="$PROJECT_DIR$/ms-framework-parent/ms-framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-framework-utils/ms-framework-utils.iml" filepath="$PROJECT_DIR$/ms-framework-utils/ms-framework-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-govern-center/ms-govern-center.iml" filepath="$PROJECT_DIR$/ms-govern-center/ms-govern-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-parent/ms-parent.iml" filepath="$PROJECT_DIR$/ms-parent/ms-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-server/ms-server.iml" filepath="$PROJECT_DIR$/ms-server/ms-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-service-api/ms-service-api.iml" filepath="$PROJECT_DIR$/ms-service-api/ms-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-ucenter/ms-ucenter.iml" filepath="$PROJECT_DIR$/ms-ucenter/ms-ucenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-ucenter-auth/ms-ucenter-auth.iml" filepath="$PROJECT_DIR$/ms-ucenter-auth/ms-ucenter-auth.iml" />
+    </modules>
+  </component>
+</project>

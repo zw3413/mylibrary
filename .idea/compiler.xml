@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ms-server" />
+        <module name="ms-framework-common" />
+        <module name="ms-service-api" />
+        <module name="ms-govern-center" />
+        <module name="ms-ucenter" />
+        <module name="ms-framework-model" />
+        <module name="ms-framework-utils" />
+        <module name="ms-ucenter-auth" />
+        <module name="client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client" target="1.8" />
+      <module name="client-utility" target="1.8" />
+      <module name="ms-framework-common" target="1.8" />
+      <module name="ms-framework-model" target="1.8" />
+      <module name="ms-framework-parent" target="1.8" />
+      <module name="ms-framework-utils" target="1.8" />
+      <module name="ms-govern-center" target="1.8" />
+      <module name="ms-parent" target="1.8" />
+      <module name="ms-server" target="1.8" />
+      <module name="ms-service-api" target="1.8" />
+      <module name="ms-ucenter" target="1.8" />
+      <module name="ms-ucenter-auth" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client" options="" />
+      <module name="client-utility" options="" />
+      <module name="ms-framework-common" options="-parameters" />
+      <module name="ms-framework-model" options="-parameters" />
+      <module name="ms-framework-utils" options="-parameters" />
+      <module name="ms-govern-center" options="-parameters" />
+      <module name="ms-server" options="-parameters" />
+      <module name="ms-service-api" options="-parameters" />
+      <module name="ms-ucenter" options="-parameters" />
+      <module name="ms-ucenter-auth" options="-parameters" />
+    </option>
+  </component>
+</project>

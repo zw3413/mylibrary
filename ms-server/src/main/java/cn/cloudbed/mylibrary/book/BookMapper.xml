@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.cloudbed.mylibrary.book.BookMapper">
+
+    <select id="bookTotal" resultType="int">
+        select count(*) from mlb_book
+        where 1=1
+        <if test="param!=null and param.name!=null">
+            and  lower(bookname) like lower(concat(concat('%',#{param.name}),'%'))
+        </if>
+    </select>
+
+    <select id="queryBook" resultType="map" >
+        select b.*, f.* from mlb_book b
+        left join mlb_book_file f on b.fileid=f.id
+        where 1=1
+        <if test="param!=null and param.name!=null">
+            and  lower(b.bookname) like lower(concat(concat('%',#{param.name}),'%'))
+        </if>
+        <if test="param!=null and param.classification!=null">
+            and lower(b.classification) like  concat(concat('%',lower(#{param.classification})),'%')
+        </if>
+
+        <if test="param!=null and param.tag!=null">
+            and lower(b.tag) like concat(concat('%',lower(#{param.tag})),'%')
+        </if>
+
+        <if test="param!=null and param.author!=null">
+            and lower(b.author) like concat(concat('%',lower(#{param.author})),'%')
+        </if>
+        <if test="param!=null and param.language!=null">
+            and lower(b.language) = lower(#{param.language})
+        </if>
+
+        <if test="param!=null and param.publishhouse!=null">
+            and b.publishhouse = #{param.publishhouse}
+        </if>
+
+        <if test="param!=null and param.publishtimeMin!=null">
+           and ( b.publishtime between  str_to_date(#{param.publishtimeMin},'%Y-%m-%d') and now() )
+        </if>
+
+        <if test="param!=null and param.publishtimeMax!=null">
+           and ( b.publishtime between str_to_date('0000-00-00','%Y-%m-%d') and str_to_date(#{param.publishtimeMax},'%Y-%m-%d'))
+        </if>
+
+
+
+
+<!--        <if test="param!=null and param.pageSize!=null and param.page!=null">-->
+<!--            limit  #{param.pageSize}-->
+<!--            offset #{param.pageSize} * ( #{param.page} - 1 )-->
+<!--        </if>-->
+
+        <if test="param!=null and param.order!=null">
+            order by ${param.order}
+        </if>
+        <if test="param!=null and param.order==null">
+            order by b.bookname desc
+        </if>
+
+        limit  ${param.pageSize} offset ${param.offset}
+
+    </select>
+
+    <select id="getTable" parameterType="string" resultType="map">
+        select distinct (name)
+        from ${tableName}
+    </select>
+
+    <update id="saveBook">
+        update mlb_book
+        set
+        <if test="book.bookname!=null">
+           bookname=#{book.bookname},
+        </if>
+        <if test="book.language!=null">
+           language=#{book.language},
+        </if>
+        <if test="book.brief!=null">
+           brief=#{book.brief},
+        </if>
+        <if test="book.publishhouse!=null">
+           publishhouse=#{book.publishhouse},
+        </if>
+        <if test="book.publishtime!=null">
+           publishtime= str_to_date(concat(#{book.publishtime} , '-01'),'%Y-%m-%d'),
+        </if>
+        <if test="book.classification!=null">
+           classification=#{book.classification},
+        </if>
+
+        <if test="book.tag!=null">
+           tag=#{book.tag},
+        </if>
+
+        <if test="book.author!=null">
+           author=#{book.author},
+        </if>
+           updatetime=now()
+        where id= #{book.id}
+    </update>
+</mapper>

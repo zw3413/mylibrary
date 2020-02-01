@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mylibrary-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/client/pom.xml" />
+        <option value="$PROJECT_DIR$/utility/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-govern-center/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-ucenter-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-framework-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-framework-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-framework-model/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-framework-utils/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
