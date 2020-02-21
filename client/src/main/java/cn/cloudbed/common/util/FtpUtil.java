@@ -292,9 +292,9 @@ public class FtpUtil {
 
     public static void main(String[] args) {
         FtpUtil ftp =new FtpUtil();
-        //ftp.uploadFile("ftpFile/data", "123.docx", "E://123.docx");
-        //ftp.downloadFile("ftpFile/data", "123.docx", "F://");
-        ftp.deleteFile("ftpFile/data", "123.docx");
+        //ftp.uploadFile("ftpFile/file", "123.docx", "E://123.docx");
+        //ftp.downloadFile("ftpFile/file", "123.docx", "F://");
+        ftp.deleteFile("ftpFile/file", "123.docx");
         System.out.println("ok");
     }
 }

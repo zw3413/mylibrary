@@ -39,7 +39,7 @@ public class GhostJWTClient {
         Map<String, Object> payload = new HashMap<>();
         Long now = new Date().getTime() / 1000;
         payload.put("iat", now);
-        payload.put("exp", now + 5 * 60 * 60);
+        payload.put("exp", now + 30 * 24 * 60 * 60);
         payload.put("aud", "/v2/admin/");
         String token = Jwts.builder()
                 .addClaims(payload)
@@ -76,8 +76,13 @@ public class GhostJWTClient {
      */
     private static GhostJWTService ghostJWTService =null;
     public static GhostJWTService getGhostJWTService(){
+        return getGhostJWTService(false);
 
-        if(ghostJWTService ==null){
+    }
+
+    public static GhostJWTService getGhostJWTService(boolean refreshToken){
+
+        if(ghostJWTService ==null || refreshToken ){
             String hostname = GhostJWTClient.hostname;
             String token = GhostJWTClient.generateToken(GhostJWTClient.adminKey);
             //String token="eyJraWQiOiI1ZDZmYWNhNTMwYWVmYzI2YWI1MzgyNGYiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIvdjIvYWRtaW4vIiwiZXhwIjoxNTgwMzMxOTExLCJpYXQiOjE1ODAzMTM5MTF9.ncGDN8pNdKmswyYQShYacOLSeevYnnib9qpEFtk1YDA";

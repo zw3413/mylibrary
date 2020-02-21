@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("cn.cloudbed.mylibrary.*") // 扫描Mybatis的mapper文件
+@MapperScan("cn.cloudbed.mylibrary.**.dao") // 扫描Mybatis的mapper文件
 public class MylibraryApplication {
 
     public static void main(String[] args) {

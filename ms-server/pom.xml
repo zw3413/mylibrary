@@ -22,6 +22,13 @@
 
     <dependencies>
         <dependency>
+            <groupId>cn.cloudbed.mylibrary</groupId>
+            <artifactId>client</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-jwt</artifactId>
             <version>1.0.9.RELEASE</version>
@@ -100,7 +107,6 @@
         </dependency>
 
 
-
         <!-- slf4j核心包-->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -154,7 +160,7 @@
 
         <!--        <dependency>-->
         <!--            <groupId>org.springframework.boot</groupId>-->
-        <!--            <artifactId>spring-boot-starter-data-rest</artifactId>-->
+        <!--            <artifactId>spring-boot-starter-file-rest</artifactId>-->
         <!--        </dependency>-->
         <!--        <dependency>-->
         <!--            <groupId>org.springframework.boot</groupId>-->
@@ -175,8 +181,8 @@
             <artifactId>spring-boot-admin-starter-server</artifactId>
         </dependency>
         <!--        <dependency>-->
-        <!--            <groupId>org.springframework.data</groupId>-->
-        <!--            <artifactId>spring-data-rest-hal-browser</artifactId>-->
+        <!--            <groupId>org.springframework.file</groupId>-->
+        <!--            <artifactId>spring-file-rest-hal-browser</artifactId>-->
         <!--        </dependency>-->
         <!--        <dependency>-->
         <!--            <groupId>org.springframework.kafka</groupId>-->
@@ -249,15 +255,15 @@
                 <configuration>
                     <imageName>139.196.142.70:5000/${project.artifactId}:${project.version}</imageName>
                     <baseImage>madongdocker/jdk1.8</baseImage>
-<!--                   <entryPoint>["java","-jar","/${project.build.finalName}.jar}"]</entryPoint>-->
+                    <!--                   <entryPoint>["java","-jar","/${project.build.finalName}.jar}"]</entryPoint>-->
                     <entryPoint>["/bin/bash"]</entryPoint>
-<!--                    <resources>-->
-<!--                        <resource>-->
-<!--                            <targetPath>/home/</targetPath>-->
-<!--                            <directory>${project.build.directory}</directory>-->
-<!--                            <include>${project.build.finalName}.jar</include>-->
-<!--                        </resource>-->
-<!--                    </resources>-->
+                    <!--                    <resources>-->
+                    <!--                        <resource>-->
+                    <!--                            <targetPath>/home/</targetPath>-->
+                    <!--                            <directory>${project.build.directory}</directory>-->
+                    <!--                            <include>${project.build.finalName}.jar</include>-->
+                    <!--                        </resource>-->
+                    <!--                    </resources>-->
                     <dockerHost>http://139.196.142.70:2375</dockerHost>
                 </configuration>
             </plugin>

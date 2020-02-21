@@ -3,7 +3,6 @@ package cn.cloudbed.operation;
 import cn.cloudbed.common.client.ghost.accessories.GhostJDBCTemplate;
 import cn.cloudbed.common.util.DataSourceFactory;
 import cn.cloudbed.common.util.FileUtil;
-import cn.cloudbed.common.util.FtpUtil;
 import cn.cloudbed.common.util.PdfToImgGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,9 +11,6 @@ import org.springframework.util.DigestUtils;
 
 import javax.sql.DataSource;
 import java.io.*;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;
@@ -161,7 +157,7 @@ public class DocumentProcessOperation {
         if (book == null) return;
         initMysqlTemplate();
         //1.保存mlb_book
-        String sql = "insert into mlb_book1(id,bookname,fileid,covera,updatetime,filetype,digest) values (?,?,?,?,?,?,?)";
+        String sql = "insert into mlb_book(id,bookname,fileid,covera,updatetime,filetype,digest) values (?,?,?,?,?,?,?)";
         mysqlTemplate.update(sql,
                 new Object[]{
                         book.get("id"),
@@ -175,7 +171,7 @@ public class DocumentProcessOperation {
         //2.保存mlb_book_file
         Map<String, Object> file = (Map<String, Object>) book.get("file");
         if (file != null) {
-            sql = "insert into mlb_book_file1(id,filename,filesize,filepath,format,createtime,isdel) values(?,?,?,?,?,?,?)";
+            sql = "insert into mlb_file(id,filename,filesize,filepath,format,createtime,isdel) values(?,?,?,?,?,?,?)";
             mysqlTemplate.update(sql,
                     new Object[]{
                             file.get("id"),
@@ -198,7 +194,7 @@ public class DocumentProcessOperation {
     private static boolean checkIfSaved(String digest) throws IOException {
         //String digest=DigestUtils.md5DigestAsHex(new FileInputStream(file));
         initMysqlTemplate();
-        String sql = "select id from mlb_book1 where digest = ?";
+        String sql = "select id from mlb_book where digest = ?";
         List list = mysqlTemplate.queryForList(sql, new Object[]{digest});
         if (list.size() > 0) {
             return true;
@@ -207,13 +203,30 @@ public class DocumentProcessOperation {
         }
     }
 
-    static void generateCover(File file, String targetImgPath) {
+
+
+    public static void generateImageCache(File file, String targetImgPath) {
         try {
             PdfToImgGenerator.generateJpegFromPdf(file, targetImgPath, 1, 1, 0.8f);
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("生成图片失败");
         }
+    }
+
+    public static void generateImageCache(File file, String targetImgPath,int startPage,int endPage) {
+        try {
+            PdfToImgGenerator.generateJpegFromPdf(file, targetImgPath, 1, endPage, 0.8f);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.err.println("生成图片失败");
+        }
+    }
+
+    public static String autoImageCachePath(String filePath){
+        int afterfixIndex=filePath.lastIndexOf(".");
+        String fileCacheDir=filePath.substring(0,afterfixIndex);
+        return fileCacheDir;
     }
 
     /**
@@ -244,7 +257,7 @@ public class DocumentProcessOperation {
         LOGGER.debug("::将此文件转移至目标路径");
 
         //2. 生成预览图片
-        generateCover(file, targetPath + File.separator + uuid);
+        generateImageCache(file, targetPath + File.separator + uuid);
         LOGGER.debug("::生成封面图片");
 
         //3. 上传百度网盘
@@ -360,7 +373,9 @@ public class DocumentProcessOperation {
     public static void main(String[] args) {
 
         try {
+
             readDocumentAndProcess();
+
         } catch (Exception e) {
             e.printStackTrace();
         }

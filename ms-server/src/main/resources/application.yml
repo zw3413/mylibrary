@@ -1,4 +1,8 @@
 debug: true
+mylibrary:
+  fileBasePath: /file/mylibrary/book/
+  fileBaseUrl: http://139.196.142.70/file/mylibrary/book/
+  pdfViewerUrl: http://139.196.142.70/pdf/web/viewer.html
 logging:
   level:
     cn:
@@ -9,7 +13,7 @@ logging:
     root: error
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
-  mapper-locations: classpath:cn.cloudbed.**.*.xml
+  mapper-locations: classpath:cn/cloudbed/mylibrary/*/mapper/*.xml
 server:
   error:
     path: /error
