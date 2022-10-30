@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-10-27T13:53:25.230+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer",
+  "path": "/mylibrary/book"
+}

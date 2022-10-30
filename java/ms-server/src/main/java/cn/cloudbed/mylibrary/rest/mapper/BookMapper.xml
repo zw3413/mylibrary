@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.cloudbed.mylibrary.rest.dao.BookDao">
+
+    <select id="getBookById" resultType="map" parameterType="string">
+        select *
+        from mlb_book
+        where id = #{id}
+    </select>
+    <select id="getAuthor" resultType="map">
+        select distinct(author) as value
+        from mlb_book
+    </select>
+
+    <select id="getPublishhouse" resultType="map">
+        select case when value is null then '' else value end as label,
+               case when value is null then '' else value end as value
+        from (
+                 select distinct(publishhouse) as value
+                 from mlb_book
+             ) a
+        order by value
+    </select>
+
+    <select id="getClassification" resultType="map">
+
+        select case when value is null then '' else value end as label,
+               case when value is null then '' else value end as value
+        from (
+                 select distinct(classification) as value
+                 from mlb_book
+             ) a
+        order by value
+    </select>
+
+    <select id="bookTotal" resultType="int">
+        select count(*) from mlb_book
+        where 1=1
+        <if test="param!=null and param.name!=null">
+            and lower(bookname) like lower(concat(concat('%',#{param.name}),'%'))
+        </if>
+    </select>
+
+    <select id="queryBook" resultType="map">
+        select
+        b.id,
+        b.fileid,
+        b.bookname,
+        b.publishhouse,
+        DATE_FORMAT(b.publishtime,'%Y-%m') as publishtime,
+        b.author,
+        b.classification,
+        b.tag,
+        b.brief,
+        b.catalogue,
+        b.covera,
+        b.ratings,
+        b.postid,
+        DATE_FORMAT(b.updatetime,'%Y-%m-%d %T') as updatetime,
+        f.filename,
+        f.filesize,
+        f.filepath,
+        f.format,
+        DATE_FORMAT(f.createtime,'%Y-%m-%d %T') as filetime
+        from mlb_book b
+        left join mlb_file f on b.fileid=f.id
+        where 1=1
+        <if test="param!=null and param.id!=null">
+            and b.id = #{param.name}
+        </if>
+        <if test="param!=null and param.name!=null">
+            and lower(b.bookname) like lower(concat(concat('%',#{param.name}),'%'))
+        </if>
+        <if test="param!=null and param.classification!=null">
+            and lower(b.classification) like concat(concat('%',lower(#{param.classification})),'%')
+        </if>
+        <if test="param!=null and param.tag!=null">
+            and lower(b.tag) like concat(concat('%',lower(#{param.tag})),'%')
+        </if>
+        <if test="param!=null and param.author!=null">
+            and lower(b.author) like concat(concat('%',lower(#{param.author})),'%')
+        </if>
+        <if test="param!=null and param.language!=null">
+            and lower(b.language) = lower(#{param.language})
+        </if>
+        <if test="param!=null and param.publishhouse!=null">
+            and b.publishhouse = #{param.publishhouse}
+        </if>
+        <if test="param!=null and param.publishtimeMin!=null">
+            and ( b.publishtime between str_to_date(#{param.publishtimeMin},'%Y-%m-%d') and now() )
+        </if>
+        <if test="param!=null and param.publishtimeMax!=null">
+            and ( b.publishtime between str_to_date('0000-00-00','%Y-%m-%d') and
+            str_to_date(#{param.publishtimeMax},'%Y-%m-%d'))
+        </if>
+        <if test="param!=null and param.order!=null">
+            order by ${param.order}
+        </if>
+        <if test="param!=null and param.order==null">
+            order by b.bookname desc
+        </if>
+        limit ${param.pageSize} offset ${param.offset}
+    </select>
+
+
+    <update id="saveBook">
+        update mlb_book
+        set
+        <if test="book.bookname!=null">
+            bookname=#{book.bookname},
+        </if>
+        <if test="book.language!=null">
+            language=#{book.language},
+        </if>
+        <if test="book.brief!=null">
+            brief=#{book.brief},
+        </if>
+        <if test="book.publishhouse!=null">
+            publishhouse=#{book.publishhouse},
+        </if>
+        <if test="book.publishtime!=null">
+            publishtime= str_to_date(concat(#{book.publishtime} , '-01'),'%Y-%m-%d'),
+        </if>
+        <if test="book.classification!=null">
+            classification=#{book.classification},
+        </if>
+
+        <if test="book.tag!=null">
+            tag=#{book.tag},
+        </if>
+        <if test="book.covera!=null">
+            covera=#{book.covera},
+        </if>
+
+        <if test="book.author!=null">
+            author=#{book.author},
+        </if>
+        <if test="book.ratings!=null">
+            ratings= CAST(#{book.ratings} AS decimal(5,1)),
+        </if>
+
+        updatetime=now()
+        where id= #{book.id}
+    </update>
+
+    <insert id="createBook">
+        insert into mlb_book
+        (id,bookname,language,brief,publishhouse,publishtime,classification,tag,covera,author,updatetime,ratings)
+        values (
+        #{book.id},
+        <choose>
+            <when test="book.bookname!=null">
+                #{book.bookname},
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        <choose>
+            <when test="book.language!=null">
+                #{book.language},
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        <choose>
+            <when test="book.brief!=null">
+                #{book.brief},
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        <choose>
+            <when test="book.publishhouse!=null">
+                #{book.publishhouse},
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        <choose>
+            <when test="book.publishtime!=null">
+                str_to_date(concat(#{book.publishtime} , '-01'),'%Y-%m-%d'),
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        <choose>
+            <when test="book.classification!=null">
+                #{book.classification},
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        <choose>
+            <when test="book.tag!=null">
+                #{book.tag},
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        <choose>
+            <when test="book.covera!=null">
+                #{book.covera},
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        <choose>
+            <when test="book.author!=null">
+                #{book.author},
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        ,now(),
+        <choose>
+            <when test="book.ratings!=null">
+                CAST(#{book.ratings} AS decimal(5,1)),
+            </when>
+            <otherwise>
+                null,
+            </otherwise>
+        </choose>
+        )
+
+    </insert>
+
+</mapper>

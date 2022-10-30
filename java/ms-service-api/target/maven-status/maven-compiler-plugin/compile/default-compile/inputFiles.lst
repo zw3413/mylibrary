@@ -1,0 +1,11 @@
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/learning/CourseLearningControllerApi.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/media/MediaUploadControllerApi.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/auth/AuthControllerApi.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/cms/CmsConfigControllerApi.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/config/Swagger2Configuration.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/media/MediaFileControllerApi.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/search/EsCourseControllerApi.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/course/CourseControllerApi.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/filesystem/FileSystemControllerApi.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/ucenter/UcenterControllerApi.java
+/Users/weizhang/IdeaProjects/mylibrary/ms-service-api/src/main/java/cn/cloudbed/mylibrary/api/cms/CmsPageControllerApi.java

@@ -1,0 +1,292 @@
+POST http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+pageSize=5
+
+<> 2019-10-27T095915.415.json
+
+###
+
+GET http://localhost:8090/mylibrary/book?pageSize=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T095839.200.json
+
+###
+
+GET http://localhost:8090/mylibrary/book?pageSize=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T095816.200.json
+
+###
+
+GET http://localhost:8090/mylibrary/book?pageSize=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T095751.200.json
+
+###
+
+GET http://localhost:8090/mylibrary/book?pageSize=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T095722.200.json
+
+###
+
+GET http://localhost:8090/mylibrary/book?pageSize=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T095535.200.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T095518.200.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T095455.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T095325.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T094958.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T094905.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T094348.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T094327.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T094232.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T093933.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T093856.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T093755.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T093235.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T092730.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T092448.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T092349.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T092312.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T092152.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T092032.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T091914.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T091738.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T091613.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T091544.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T091138.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T090905.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T090807.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T090535.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T090420.500.json
+
+###
+
+GET http://localhost:8090/mylibrary/book
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-27T090327.500.json
+
+###
+

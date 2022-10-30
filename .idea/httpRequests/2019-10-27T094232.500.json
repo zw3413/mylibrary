@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-10-27T13:42:32.694+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'Integer' not found. Available parameters are [param, param1]",
+  "path": "/mylibrary/book"
+}

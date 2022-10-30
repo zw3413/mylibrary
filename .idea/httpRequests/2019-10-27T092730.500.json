@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-10-27T13:27:30.551+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "org.springframework.jdbc.BadSqlGrammarException: \n### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cast( '1' as  INTEGER)\n\n\n\n\n\n\n         \n\n         \n            order by b.booknam' at line 19\n### The error may exist in cn/cloudbed/mylibrary/book/BookMapper.xml\n### The error may involve defaultParameterMap\n### The error occurred while setting parameters\n### SQL: select b.*, f.* from mlb_book b         left join mlb_book_file f on b.fileid=f.id         where 1=1                                                                                                    limit  cast( '1' as  INTEGER)                                        order by b.bookname desc\n### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cast( '1' as  INTEGER)\n\n\n\n\n\n\n         \n\n         \n            order by b.booknam' at line 19\n; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cast( '1' as  INTEGER)\n\n\n\n\n\n\n         \n\n         \n            order by b.booknam' at line 19",
+  "path": "/mylibrary/book"
+}

@@ -1,0 +1,42 @@
+debug: true
+mylibrary:
+  fileBasePath: /file/mylibrary/book/
+  fileBaseUrl: http://cloudbed.cn/file/mylibrary/book/
+  pdfViewerUrl: http://cloudbed.cn/pdf/web/viewer.html
+logging:
+  level:
+    cn:
+      cloudbed:
+        mylibrary:
+          book:
+            BookMapper: debug
+    root: error
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:cn/cloudbed/mylibrary/*/mapper/*.xml
+server:
+  error:
+    path: /error
+  port: 8090
+  servlet:
+    context-path: /mylibrary
+    session:
+      timeout: 30m
+  tomcat:
+    max-threads: 500
+    uri-encoding: utf-8
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    name: mylibrary
+    password: Good@2020
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/ghost_prod?useUnicode=true&characterEncoding=utf8
+    username: root
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.mysql
+        temp:
+          use_jdbc_metadata_defaults: false
+

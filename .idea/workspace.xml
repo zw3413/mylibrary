@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ms-server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7993a59f-b44c-42ee-8aa7-3f9843501595" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-parent/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/client_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ms_server_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ms_server_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/client/ghost/GhostJWTClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/client/ghost/GhostJWTClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/util/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/GhostAdminOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/GhostAdminOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/ghostPostTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/ghostPostTemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-framework-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-framework-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-framework-utils/src/main/java/cn/cloudbed/mylibrary/framework/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-framework-utils/src/main/java/cn/cloudbed/mylibrary/framework/utils/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-framework-utils/src/main/java/cn/cloudbed/mylibrary/framework/utils/Snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-framework-utils/src/main/java/cn/cloudbed/mylibrary/framework/utils/Snowflake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-server/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/mylibrary-parent/target/" />
+    <ignored path="$PROJECT_DIR$/server/target/" />
+    <ignored path="$PROJECT_DIR$/client/target/" />
+    <ignored path="$PROJECT_DIR$/utility/target/" />
+    <ignored path="$PROJECT_DIR$/ms-govern-center/target/" />
+    <ignored path="$PROJECT_DIR$/ms-ucenter/target/" />
+    <ignored path="$PROJECT_DIR$/ms-ucenter-auth/target/" />
+    <ignored path="$PROJECT_DIR$/client-utility/target/" />
+    <ignored path="$PROJECT_DIR$/ms-parent/target/" />
+    <ignored path="$PROJECT_DIR$/ms-server/target/" />
+    <ignored path="$PROJECT_DIR$/ms-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/ms-framework-common/target/" />
+    <ignored path="$PROJECT_DIR$/ms-framework-parent/target/" />
+    <ignored path="$PROJECT_DIR$/ms-framework-model/target/" />
+    <ignored path="$PROJECT_DIR$/ms-framework-utils/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ghost_prod@139.196.142.70" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ghost_prod@139.196.142.70" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="89fdf2b3-6ecd-4aee-8ef0-cb8d4df4b31d">
+        <node key="vue_reader" />
+      </node>
+    </checked>
+    <expanded>
+      <node key="89fdf2b3-6ecd-4aee-8ef0-cb8d4df4b31d" />
+    </expanded>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/GhostAdminOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/client/ghost/accessories/GhostJDBCTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ms-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/MainLuncher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/BuildDataInGhostDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/client/ghost/GhostJWTService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/DocumentProcessOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/client/ghost/GhostJWTClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/service/FileService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/dao/FileDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysql</find>
+      <find>library.</find>
+      <find>slug</find>
+      <find>post</find>
+      <find>druid</find>
+      <find>swagger</find>
+      <find>getBookCount</find>
+      <find>commons</find>
+      <find>junit</find>
+      <find>auth0</find>
+      <find>starter-web</find>
+      <find>icepdf</find>
+      <find>levigo</find>
+      <find>jwt</find>
+      <find>feign</find>
+      <find>jsonw</find>
+      <find>logback</find>
+      <find>log4j</find>
+      <find>main</find>
+      <find>log</find>
+      <find>getFileList</find>
+      <find>fileBaseUrl</find>
+      <find>queryBook</find>
+      <find>saveBook</find>
+      <find>else</find>
+      <find>client</find>
+      <find>getBookById</find>
+      <find>createBook</find>
+      <find>bookName</find>
+      <find>fail</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>cn.cloudbed.mylibrary</replace>
+      <replace>GhostClientService</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/ms-framework-model</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/data/DFileController.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/data/DDataService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/file/DFileController.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/file/FileController.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/db/DbMapper.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/db/DbController.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/book/BookService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/db/DbService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/book/BookDao.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/book/BookMapper.xml" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/db/DbMapper.xml" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/db/DbDao.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/book/BookController.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/book/BookController_v2.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/OperationService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/OperationController.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/OperationController.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/service/DbService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/dao/DbDao.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/controller/GhostOperationController.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/dao/OperationDao.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/service/OperationOpService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/mapper/ServerOpMapper.xml" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/dao/ServerOpDao.java" />
+        <option value="$PROJECT_DIR$/client/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/springconfig/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/dao/GhostOpDao.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/MylibraryApplication.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/mapper/FileMapper.xml" />
+        <option value="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/DocumentProcessOperation.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/controller/ServerOpController.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/service/ServerOpService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/controller/BookControllerV2.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/ms-server/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/service/BookService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/mapper/BookMapper.xml" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/controller/GhostOpController.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/util/MyStringUtil.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/service/GhostOpService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/dao/FileDao.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/service/FileService.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/controller/FileController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/89fdf2b3-6ecd-4aee-8ef0-cb8d4df4b31d/console.sql" />
+        <option value="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/ghostPostTemplate.html" />
+        <option value="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/client/ghost/GhostJWTClient.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/GhostAdminOperation.java" />
+        <option value="$PROJECT_DIR$/ms-server/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/setting.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="nexus" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ms-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ms-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudbed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudbed" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudbed" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudbed" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ghost" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudbed" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ghost" type="462c0819:PsiDirectoryNode" />
+              <item name="accessories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudbed" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudbed" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3030623" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.cloudbed.common.client" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/mapper" />
+      <recent name="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/db" />
+      <recent name="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/data" />
+      <recent name="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation" />
+      <recent name="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/common/entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.cloudbed.mylibrary.operation.controller" />
+      <recent name="cn.cloudbed.mylibrary.operation.config" />
+      <recent name="cn.cloudbed.mylibrary.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/mapper" />
+      <recent name="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/mapper" />
+      <recent name="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation" />
+      <recent name="$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8090/mylibrary/book" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="pageSize=5" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8090/mylibrary/book" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="pageSize" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8090/mylibrary/book" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GhostAdminOperation">
+    <configuration name="BaiduOAuthClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cloudbed.common.client.baidu.BaiduOAuthClient" />
+      <module name="client-utility" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cloudbed.common.client.baidu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentProcessOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cloudbed.operation.DocumentProcessOperation" />
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cloudbed.operation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GhostAdminOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cloudbed.operation.GhostAdminOperation" />
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cloudbed.operation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GhostAdminOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cloudbed.operation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.cloudbed.operation" />
+      <option name="MAIN_CLASS_NAME" value="cn.cloudbed.operation.GhostAdminOperation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdfToImgGeneratorTest.testpdfToJpeg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="client-utility" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cloudbed.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.cloudbed.common.util" />
+      <option name="MAIN_CLASS_NAME" value="cn.cloudbed.common.util.PdfToImgGeneratorTest" />
+      <option name="METHOD_NAME" value="testpdfToJpeg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-ucenter-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.cloudbed.mylibrary.auth.AuthCenterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GovernCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-govern-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cloudbed.mylibrary.govern.center.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.cloudbed.mylibrary.govern.center.GovernCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MylibraryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.cloudbed.mylibrary.MylibraryApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-ucenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cloudbed.mylibrary.ucenter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.cloudbed.mylibrary.ucenter.UcenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GhostAdminOperation" />
+      <item itemvalue="Application.DocumentProcessOperation" />
+      <item itemvalue="Application.BaiduOAuthClient" />
+      <item itemvalue="JUnit.GhostAdminOperation" />
+      <item itemvalue="JUnit.PdfToImgGeneratorTest.testpdfToJpeg" />
+      <item itemvalue="Spring Boot.AuthCenterApplication" />
+      <item itemvalue="Spring Boot.GovernCenterApplication" />
+      <item itemvalue="Spring Boot.MylibraryApplication" />
+      <item itemvalue="Spring Boot.UcenterApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GhostAdminOperation" />
+        <item itemvalue="Application.DocumentProcessOperation" />
+        <item itemvalue="JUnit.PdfToImgGeneratorTest.testpdfToJpeg" />
+        <item itemvalue="Application.BaiduOAuthClient" />
+        <item itemvalue="JUnit.GhostAdminOperation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7993a59f-b44c-42ee-8aa7-3f9843501595" name="默认更改列表" comment="" />
+      <created>1569118876946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569118876946</updated>
+      <workItem from="1569118878275" duration="3532000" />
+      <workItem from="1569123457672" duration="5518000" />
+      <workItem from="1569142712722" duration="8806000" />
+      <workItem from="1571025639981" duration="924000" />
+      <workItem from="1571030055512" duration="2658000" />
+      <workItem from="1571063474112" duration="106000" />
+      <workItem from="1571132285250" duration="7000" />
+      <workItem from="1571238557953" duration="527000" />
+      <workItem from="1571310240890" duration="5904000" />
+      <workItem from="1571409372201" duration="10615000" />
+      <workItem from="1572139961472" duration="14215000" />
+      <workItem from="1572535801305" duration="5481000" />
+      <workItem from="1572785563045" duration="12332000" />
+      <workItem from="1572957716423" duration="1533000" />
+      <workItem from="1573214700870" duration="5863000" />
+      <workItem from="1573222411056" duration="6877000" />
+      <workItem from="1574081724061" duration="406000" />
+      <workItem from="1574086168606" duration="1942000" />
+      <workItem from="1574215623892" duration="15425000" />
+      <workItem from="1574332460857" duration="2030000" />
+      <workItem from="1574335165514" duration="29126000" />
+      <workItem from="1575374705930" duration="1078000" />
+      <workItem from="1578317878861" duration="426000" />
+      <workItem from="1578367034557" duration="260000" />
+      <workItem from="1579749279764" duration="7801000" />
+      <workItem from="1579964166056" duration="760000" />
+      <workItem from="1579965097729" duration="18210000" />
+      <workItem from="1580225200127" duration="16259000" />
+      <workItem from="1580540111730" duration="1114000" />
+      <workItem from="1580544387094" duration="33954000" />
+      <workItem from="1581431901341" duration="6388000" />
+      <workItem from="1581777414820" duration="10477000" />
+      <workItem from="1581807074629" duration="7972000" />
+      <workItem from="1582121340693" duration="5647000" />
+      <workItem from="1582293389499" duration="5479000" />
+      <workItem from="1582471672808" duration="1991000" />
+      <workItem from="1582529492037" duration="22000" />
+      <workItem from="1582529797480" duration="1788000" />
+      <workItem from="1582724369316" duration="1868000" />
+      <workItem from="1582728405079" duration="33000" />
+    </task>
+    <task id="LOCAL-00001" summary="默认更改列表">
+      <created>1582293570612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582293570612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GhostClientTest_testGetPosts - 2019.10.19 at 01h 33m 28s.xml">
+      <configuration name="GhostClientTest.testGetPosts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GhostClientTest_testCreatePost - 2019.10.19 at 01h 38m 26s.xml">
+      <configuration name="GhostClientTest.testCreatePost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GhostClientTest_testGetPostById - 2019.10.19 at 01h 38m 38s.xml">
+      <configuration name="GhostClientTest.testGetPostById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GhostClientTest_testGetPosts - 2019.10.19 at 01h 38m 54s.xml">
+      <configuration name="GhostClientTest.testGetPosts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GhostClientTest_testCreatePost - 2019.10.19 at 01h 43m 19s.xml">
+      <configuration name="GhostClientTest.testCreatePost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GhostClientTest_testGetPostById - 2019.10.19 at 01h 44m 39s.xml">
+      <configuration name="GhostClientTest.testGetPostById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PdfToImgConverterTest_testpdfToJpeg - 2019.11.09 at 14h 03m 24s.xml">
+      <configuration name="PdfToImgConverterTest.testpdfToJpeg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PdfToImgConverterTest_testpdfToJpeg - 2019.11.09 at 14h 04m 00s.xml">
+      <configuration name="PdfToImgConverterTest.testpdfToJpeg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PdfToImgConverterTest_testpdfToJpeg - 2019.11.09 at 14h 04m 41s.xml">
+      <configuration name="PdfToImgConverterTest.testpdfToJpeg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PdfToImgConverterTest_testpdfToJpeg - 2019.11.09 at 14h 06m 16s.xml">
+      <configuration name="PdfToImgConverterTest.testpdfToJpeg" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="255354000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28397712" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Learn" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="设计器" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Designer" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.486747" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33493975" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.213253" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.11847134" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.40120482" />
+      <window_info anchor="bottom" id="调试" order="15" weight="0.3180723" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.36506024" />
+      <window_info anchor="bottom" id="REST Client" order="17" weight="0.3759036" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19027181" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="调色板" order="5" />
+      <window_info anchor="right" id="TCPMON" order="6" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.22389127" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="默认更改列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ms-ucenter/src/main/java/cn/cloudbed/mylibrary/ucenter/service/UserService.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ms-ucenter/src/main/java/cn/cloudbed/mylibrary/ucenter/service/UserService.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ms-ucenter-auth/src/main/java/cn/cloudbed/mylibrary/auth/service/UserDetailsServiceImpl.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ms-ucenter-auth/src/main/java/cn/cloudbed/mylibrary/auth/config/CustomUserAuthenticationConverter.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/client-utility/src/main/java/cn/cloudbed/common/client/baidu/BaiduOAuthClient.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/controller/ServerOpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/controller/DbController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/net/PlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar!/sun/net/www/MessageHeader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="446" selection-start-line="446" selection-end-line="446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/net/SocketOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/util/MyStringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.12/druid-1.1.12.jar!/com/alibaba/druid/support/json/JSONUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/service/GhostOpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE-sources.jar!/org/springframework/util/LinkedCaseInsensitiveMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://89fdf2b3-6ecd-4aee-8ef0-cb8d4df4b31d/schema/ghost_prod/table/mlb_book" />
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3691#3692#0" expanded="true" />
+            <element signature="e#3739#3740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/controller/BookControllerV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://89fdf2b3-6ecd-4aee-8ef0-cb8d4df4b31d/schema/ghost_prod/table/settings" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/89fdf2b3-6ecd-4aee-8ef0-cb8d4df4b31d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://89fdf2b3-6ecd-4aee-8ef0-cb8d4df4b31d/schema/ghost_prod/table/posts" />
+    <entry file="das://89fdf2b3-6ecd-4aee-8ef0-cb8d4df4b31d/schema/ghost_prod/table/users" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/ghostPostTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://89fdf2b3-6ecd-4aee-8ef0-cb8d4df4b31d/schema/ghost_prod/table/actions" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15300">
+          <caret line="1087" column="15" selection-start-line="1087" selection-start-column="15" selection-end-line="1087" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/operation/controller/GhostOpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/GhostAdminOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/client/ghost/accessories/GhostJDBCTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/MainLuncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/BuildDataInGhostDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/client/ghost/GhostJWTService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/operation/DocumentProcessOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/cloudbed/common/client/ghost/GhostJWTClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/java/cn/cloudbed/mylibrary/rest/dao/FileDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>ms-server:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3030623" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3030623" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ms-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3030623" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework:spring-tx:5.1.8.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3030623" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
